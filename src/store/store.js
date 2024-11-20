@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { ApiService } from "./service/ApiService";
+import {ApiService} from "./service/apiService"
 import cartReducer from "./slice/cartSlice"
 
 const store = configureStore({
